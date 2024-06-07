@@ -1,19 +1,15 @@
-
-import './App.css'
-import Header from './layout/Header'
+import './App.css';
+import Logo from './layout/Logo';
+import React from 'react';
+import Menu from './layout/Menu';
 
 function App() {
-
   return (
     <>
-    <Header />
-      <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600 ">
-        Hello, Tailwind CSS!
-      </h1>
-      </div>
+      <Menu />
+      <Logo />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
