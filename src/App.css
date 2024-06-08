@@ -1,3 +1,45 @@
 body{
     background-color: rgb(250, 246, 239);
 }
+/* Logo.css */
+
+.logo-wrapper {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .logo-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .initial-text, .full-text {
+    display: inline-block;
+    font-size: 1.25rem; /* Tailwind equivalent to text-xl */
+    font-weight: 700; /* Tailwind equivalent to font-bold */
+    white-space: nowrap;
+  }
+  
+  .full-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    overflow: hidden;
+    /* border-right: 2px solid black; Simulate the cursor */
+    opacity: 0;
+    transition: width 2s steps(10, end), opacity 0.5s ease-in-out;
+  }
+  
+  .logo-container:hover .full-text {
+    width: 8ch; /* Adjust this to match the full length of the text */
+    opacity: 1;
+  }
+  
+  .logo-container:hover .initial-text {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  

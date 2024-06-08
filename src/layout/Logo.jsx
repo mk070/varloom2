@@ -1,11 +1,12 @@
-import React, { useEffect, useRef } from 'react';
-import gsap from 'gsap';
+import React from 'react';
 
 const Logo = () => {
- 
   return (
-    <div className="flex justify-center fixed items-center w-full ">
-      <h1>Logo</h1>
+    <div className="logo-wrapper">
+      <div className="logo-container">
+        <span className="initial-text">{'{VL}'}</span>
+        <span className="full-text">{'{Varloom}'}</span>
+      </div>
     </div>
   );
 };
