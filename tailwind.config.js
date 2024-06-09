@@ -14,6 +14,11 @@ module.exports = {
       },
       fontFamily: {
         blink: ['blink', 'sans-serif'],
+        cloudy : ['cloudy', 'sans-serif'], 
+        boomster : ['boomster', 'sans-serif'], 
+        dirtyBrush : ['dirtyBrush', 'sans-serif'], 
+        superFunky : ['superFunky', 'sans-serif'], 
+        superMilk : ['superMilk', 'sans-serif'], 
       },
     },
   },

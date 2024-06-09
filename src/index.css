@@ -8,3 +8,38 @@
     font-weight: normal;
     font-style: normal;
   }
+src/index.css
+@font-face {
+    font-family: 'cloudy';
+    src: url('/public/assets/fonts/Cloudy-0W244.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'boomster';
+    src: url('/public/assets/fonts/BOOMSTER.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'dirtyBrush';
+    src: url('/public/assets/fonts/DirtyBrush.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'superFunky';
+    src: url('/public/assets/fonts/SuperFunky-lgmWw.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'superMilk';
+    src: url('/public/assets/fonts/SuperMilk-nRq9Y.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
