@@ -42,8 +42,7 @@ export const Hero = () => {
         <span className='txt'>O</span>
         <span className='txt'>R</span>
         <span className='char'>M</span>
-      </div>
-      <div className="flex flex-row gap-24">
+      {/* <div className="flex flex-row gap-24">
       <div className="flex text-[160px] gap-1">
         <span className='char'>I</span>
         <span className='txt'>D</span>
@@ -55,7 +54,7 @@ export const Hero = () => {
         <span className='txt'>E</span>
         <span className='txt'>R</span>
         <span className='char'>E</span>
-      </div> 
+      </div>  */}
       </div> 
     </div>
   );
