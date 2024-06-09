@@ -9,7 +9,7 @@ export const Hero = () => {
       }, index* 900);
     });
   },[]);
-
+// company
   return (
     <>
         <div className="flex justify-center items-center h-screen">
