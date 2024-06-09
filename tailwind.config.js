@@ -7,11 +7,14 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'primary':'rgb(250, 246, 239)',
-        'secondary':'#27272A',
-        'trinary':'#9AFF77',
-        'neutral':'#62FFF6',
-      }
+        'primary-white':'rgb(250, 246, 239)',
+        'secondary-black':'#27272A',
+        'trinary-green':'#9AFF77',
+        'neutral-blue':'#62FFF6',
+      },
+      fontFamily: {
+        blink: ['blink', 'sans-serif'],
+      },
     },
   },
   plugins: [],
