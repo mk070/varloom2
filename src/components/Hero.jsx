@@ -18,7 +18,6 @@ export const Hero = () => {
 
     return () => clearInterval(intervalId);
   }, []);
-
   return (
     <div className={`hero flex h-screen w-full items-center justify-center ${colors[currentColorIndex]}`}>
       Hero
