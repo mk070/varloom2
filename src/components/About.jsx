@@ -59,14 +59,14 @@ const About = () => {
   }, []);
 
   return (
-    <section className="flex justify-center w-full bg-primary-white items-center h-[70vh]">
+    <section className="flex justify-center w-full bg-primary-white items-center h-[100vh]">
       <p 
-        className="reveal-type text-3xl px-48"
+        className="reveal-type text-3xl px-48 leading-relaxed"
         // data-bg-color="rgb(250, 246, 239)" //try this
         data-bg-color="rgb(214 208 196)" 
         data-fg-color="#27272A"
       >
-        Welcome to Varloom, where creativity meets cutting-edge technology. We are a premier creative agency specializing in web development and design, with a distinct emphasis on 3D animations and interactive, engaging experiences. Our passion is to bring your vision to life with futuristic designs that make your website stand out in the digital landscape.
+        Welcome to Varloom, where creativity meets cutting-edge technology. <br /> We are a premier creative agency specializing in web development and design, with a distinct emphasis on 3D animations and interactive, engaging experiences. <br /> Our passion is to bring your vision to life with futuristic designs that make your website stand out in the digital landscape.
 
 
       </p>

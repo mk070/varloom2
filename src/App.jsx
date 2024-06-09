@@ -4,6 +4,7 @@ import React from 'react';
 import Menu from './layout/Menu';
 import { Hero } from './components/Hero';
 import  About  from './components/About';
+import Services from './components/Services';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Logo />
       <Hero />
       <About />
+      <Services />
     </>
   );
 }
