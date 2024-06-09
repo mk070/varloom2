@@ -60,7 +60,7 @@ body{
     }
     
     .animated {
-      transition: 4s;
+      transition: 4s ease;
       animation: changeFont 5s infinite ;
     }
 
