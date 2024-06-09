@@ -52,13 +52,41 @@ body{
   }
   /* styles.css */
     @keyframes changeFont {
-      0% { font-family: 'Roboto', sans-serif; }
-      25% { font-family: 'Open Sans', sans-serif; }
-      50% { font-family: 'Lobster', cursive; }
-      75% { font-family: 'YourNextFont', sans-serif; }
-      100% { font-family: 'Roboto', sans-serif; }
+      0% { font-family: 'cloudy', sans-serif; }
+      25% { font-family: 'boomster', sans-serif; }
+      50% { font-family: 'dirtyBrush', cursive; }
+      75% { font-family: 'superFunky', sans-serif; }
+      100% { font-family: 'superMilk', sans-serif; }
     }
     
     .animated {
-      animation: changeFont 5s infinite;
+      transition: 4s;
+      animation: changeFont 5s infinite ;
+    }
+
+.char{
+  display:inline-block;
 }
+.txt{
+  display:inline-block;
+}
+
+
+/* 
+@keyframes juggle {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+}
+
+@keyframes cartoon {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+} */
