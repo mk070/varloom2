@@ -1,6 +1,17 @@
 import React,{useEffect} from 'react'
 
 export const Hero = () => {
+  const [currentColorIndex, setCurrentColorIndex] = useState(0);
+
+  useEffect(() => {
+    const changeColor = () => {
+      setCurrentColorIndex((prevIndex) => (prevIndex + 1) % colors.length);
+    };
+
+    const intervalId = setInterval(changeColor, 4000);
+
+    return () => clearInterval(intervalId);
+  }, []);
   useEffect(() =>{
     const characters = document.querySelectorAll('.char');
     characters.forEach((char,index) => {
