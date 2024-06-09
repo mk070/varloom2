@@ -5,8 +5,9 @@ body{
 
 .logo-wrapper {
     position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
+   display: flex;
+   justify-content: center;
+   width: 100vw;
   }
   
   .logo-container {
@@ -20,21 +21,23 @@ body{
     font-size: 1.25rem; /* Tailwind equivalent to text-xl */
     font-weight: 700; /* Tailwind equivalent to font-bold */
     white-space: nowrap;
+  
   }
+  
   
   .full-text {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -45px;
     width: 0;
     overflow: hidden;
     /* border-right: 2px solid black; Simulate the cursor */
     opacity: 0;
-    transition: width 2s steps(10, end), opacity 0.5s ease-in-out;
+    transition: width 2s , opacity 0.5s ease-in-out;
   }
   
   .logo-container:hover .full-text {
-    width: 8ch; /* Adjust this to match the full length of the text */
+    width: 9ch; /* Adjust this to match the full length of the text */
     opacity: 1;
   }
   
@@ -43,3 +46,6 @@ body{
     transition: opacity 0.5s ease-in-out;
   }
   
+  .hero {
+    transition: background-color 1s ease-in-out;
+  }
