@@ -42,5 +42,17 @@
     font-weight: normal;
     font-style: normal;
   }
+@font-face {
+    font-family: 'lostar';
+    src: url('/public/assets/fonts/Lostar.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'starBorn';
+    src: url('/public/assets/fonts/Starborn.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
   /* commit */
