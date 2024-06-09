@@ -14,7 +14,7 @@ export const Hero = () => {
       setCurrentColorIndex((prevIndex) => (prevIndex + 1) % colors.length);
     };
 
-    const intervalId = setInterval(changeColor, 2000);
+    const intervalId = setInterval(changeColor, 4000);
 
     return () => clearInterval(intervalId);
   }, []);
