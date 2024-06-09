@@ -43,3 +43,15 @@ body{
     transition: opacity 0.5s ease-in-out;
   }
   
+  /* styles.css */
+    @keyframes changeFont {
+      0% { font-family: 'Roboto', sans-serif; }
+      25% { font-family: 'Open Sans', sans-serif; }
+      50% { font-family: 'Lobster', cursive; }
+      75% { font-family: 'YourNextFont', sans-serif; }
+      100% { font-family: 'Roboto', sans-serif; }
+    }
+    
+    .animated {
+      animation: changeFont 5s infinite;
+}
