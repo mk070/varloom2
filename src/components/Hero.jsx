@@ -31,7 +31,7 @@ export const Hero = () => {
 
 
   return (
-    <div className={`hero flex h-screen flex-col w-full items-center justify-center ${colors[currentColorIndex]}`}>
+    <div className={`hero  flex h-screen flex-col w-full items-center justify-center ${colors[currentColorIndex]}`}>
       <div className="flex text-[190px] gap-1">
         <span className='char'>T</span>
         <span className='txt'>R</span>
