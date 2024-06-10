@@ -28,8 +28,8 @@ export const Hero = () => {
 
 
   return (
-    <div className={`hero  flex h-screen  w-full  items-center justify-center ${colors[currentColorIndex]}`}>
-      <div className="animation flex justify-center items-center w-3/4 flex-col">
+    <div className={`hero  flex h-screen relative z-0  w-full  items-center justify-center ${colors[currentColorIndex]}`}>
+      <div className="animation  absolute top-60  flex justify-center items-center h-64 w-3/4 flex-col">
 
         <div className="hero-title flex gap-1 h-48">
           <span className='letters inline-block '>T</span>
@@ -42,7 +42,7 @@ export const Hero = () => {
           <span >R</span>
           <span className='letters'>M</span>
         </div>
-          <div className="hero-title_2 flex text-[80px] gap-1 ">
+          <div className="hero-title_2  flex text-[80px] gap-1 ">
           <span className='letters'>M</span>
           <span >A</span>
           <span >R</span>
