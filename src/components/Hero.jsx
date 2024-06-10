@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import textFit from 'textfit';
 
 const colors = [
   'bg-primary-white',
@@ -27,17 +26,13 @@ export const Hero = () => {
     return () => clearInterval(intervalId);
   },[]);
 
-  useEffect(() => {
-    textFit(document.getElementsByClassName('hero-title'));
-    textFit(document.getElementsByClassName('hero-title_2'));
-  }, []); // Run once after the component mounts
 
   return (
-    <div className={`hero  flex h-screen flex-col w-full items-center justify-center ${colors[currentColorIndex]}`}>
-      <div className="hero-title flex gap-1">
-        <span className='letters'>T</span>
+    <div className={`hero  flex h-screen flex-col w-full overflow-hidden items-center justify-center ${colors[currentColorIndex]}`}>
+      <div className="hero-title flex gap-1 h-80">
+        <span className='letters inline-block '>T</span>
         <span >R</span>
-        <span className='letters'>A</span>
+        <span className='letters '>A</span>
         <span >N</span>
         <span >S</span>
         <span className='letters'>F</span>

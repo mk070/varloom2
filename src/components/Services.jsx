@@ -34,11 +34,11 @@ const Services = () => {
       });
     };
 
-    createText('services', -10);
-    createText('services2', -20);
-    createText('services3', -30);
+    createText('services', 0);
+    createText('services2', -100);
+    createText('services3', -300);
 
-    camera.position.z = 5;
+    camera.position.z = 1;
 
     // Animation loop
     const animate = () => {
@@ -65,7 +65,7 @@ const Services = () => {
     };
   }, []);
 
-  return <div ref={mountRef} />;
+  return <div ref={mountRef} className='overflow-hidden'/>;
 };
 
 export default Services;
