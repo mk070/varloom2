@@ -2,7 +2,7 @@ import React from 'react';
 
 const Logo = () => {
   return (
-    <div className="logo-wrapper mt-3">
+    <div className="z-10 logo-wrapper mt-3">
       <div className="logo-container">
         <span className="initial-text font-blink">
           <span className='text-trinary-green'>{'{'}</span>
