@@ -65,7 +65,7 @@ const Services = () => {
     };
   }, []);
 
-  return <div ref={mountRef} />;
+  return <div ref={mountRef} className='overflow-hidden'/>;
 };
 
 export default Services;
