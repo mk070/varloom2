@@ -65,20 +65,17 @@ body{
       animation: changeFont 5s infinite ;
     }
 
-    .hero-title{
-      height:300px;
-      width:800px;
-      display: inline-block;
-    }
-
+  
     .hero-title span{
       font-size:150px;
-    }
-
-    .hero-title_2{
-      height:300px;
       display: inline-block;
     }
+
+    .hero-title_2 span{ 
+      display: inline-block;
+    }
+
+    
 
 
 /* 

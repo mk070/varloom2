@@ -28,26 +28,30 @@ export const Hero = () => {
 
 
   return (
-    <div className={`hero  flex h-screen flex-col w-full overflow-hidden items-center justify-center ${colors[currentColorIndex]}`}>
-      <div className="hero-title flex gap-1 h-80">
-        <span className='letters inline-block '>T</span>
-        <span >R</span>
-        <span className='letters '>A</span>
-        <span >N</span>
-        <span >S</span>
-        <span className='letters'>F</span>
-        <span >O</span>
-        <span >R</span>
-        <span className='letters'>M</span>
+    <div className={`hero  flex h-screen  w-full  items-center justify-center ${colors[currentColorIndex]}`}>
+      <div className="animation flex justify-center items-center w-3/4 flex-col">
+
+        <div className="hero-title flex gap-1 h-48">
+          <span className='letters inline-block '>T</span>
+          <span >R</span>
+          <span className='letters '>A</span>
+          <span >N</span>
+          <span >S</span>
+          <span className='letters'>F</span>
+          <span >O</span>
+          <span >R</span>
+          <span className='letters'>M</span>
         </div>
-      <div className="hero-title_2 flex text-[80px] gap-1 my-[-100px]">
-        <span className='letters'>M</span>
-        <span >A</span>
-        <span >R</span>
-        <span className='letters'>K</span>
-        <span >E</span>
-        <span className='letters'>T</span>
-      </div> 
-    </div>
+          <div className="hero-title_2 flex text-[80px] gap-1 ">
+          <span className='letters'>M</span>
+          <span >A</span>
+          <span >R</span>
+          <span className='letters'>K</span>
+          <span >E</span>
+          <span className='letters'>T</span>
+          </div> 
+      </div>
+
+      </div>
   );
 };
