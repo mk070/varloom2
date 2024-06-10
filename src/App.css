@@ -49,27 +49,37 @@ body{
   
   .hero{
     transition: 1s;
+    font-family:'';
   }
   /* styles.css */
     @keyframes changeFont {
       0% { font-family: 'cloudy', sans-serif; }
       25% { font-family: 'boomster', sans-serif; }
       50% { font-family: 'dirtyBrush', cursive; }
-      75% { font-family: 'superFunky', sans-serif; }
-      100% { font-family: 'superMilk', sans-serif; }
+      75% { font-family: 'starBorn', sans-serif; }
+      100% { font-family: 'lostar', sans-serif; }
     }
     
-    .animated {
-      transition: 4s ease;
+    .animated{
+      transition: 4s ease-in-out;
       animation: changeFont 5s infinite ;
     }
 
-.char{
-  display:inline-block;
-}
-.txt{
-  display:inline-block;
-}
+    .hero-title{
+      height:300px;
+      widht:800px;
+      display: inline-block;
+    }
+
+    .hero-title span{
+      font-size:150px;
+    }
+
+    .hero-title_2{
+      height:300px;
+      widht:800px;
+      display: inline-block;
+    }
 
 
 /* 

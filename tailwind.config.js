@@ -19,6 +19,8 @@ module.exports = {
         dirtyBrush : ['dirtyBrush', 'sans-serif'], 
         superFunky : ['superFunky', 'sans-serif'], 
         superMilk : ['superMilk', 'sans-serif'], 
+        lostar : ['lostar', 'sans-serif'], 
+        starborn : ['starborn', 'sans-serif'], 
       },
     },
   },
